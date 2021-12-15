@@ -105,6 +105,15 @@ ul {
     margin: 50px 0px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    color: white;
+    padding: 8px 0px;
+}
+
 .copy h1 {
     margin-bottom: 0px;
     font-size: 12px;
