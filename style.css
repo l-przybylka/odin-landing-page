@@ -3,6 +3,10 @@ body {
     margin: 0px;
 }
 
+*{ 
+    border: 0.5px solid blue
+ }
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -11,24 +15,42 @@ a {
 ul {
     list-style-type: none;
     display: flex;
+    padding: 0px;
 }
 
 .header, .hero, .footer {
     background-color: #1f2937;
 }
 
-.header {
+.header, .hero {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0px 175px;
 }
 
 .header h1 {
-    font-size: 24px;
+    font-size: 22px;
     color: #f9faf8;
 }
 
 .header ul {
-    font-size: 18px;
+    font-size: 16px;
     gap: 15px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+
 }
