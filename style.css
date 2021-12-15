@@ -60,6 +60,7 @@ ul {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    margin: 50px 0px;
 }
 
 .testimonial p {
@@ -84,6 +85,34 @@ ul {
     width: 350px;
     display: flex;
     justify-content: flex-end;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #3882f6;
+    width: 600px;
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+
+.bottom-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.copy h1 {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.copy p {
+    margin-top: 0px;
+    font-size: 8px;
 }
 
 .header h1 {
